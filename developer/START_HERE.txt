@@ -1,0 +1,27 @@
+WEB BUDDY — ANIMATED SPIDEY 1.2.1
+
+1. Extract Web_Buddy_Spidey_1.2.1.zip into a new folder.
+2. In Chrome, open chrome://extensions and turn on Developer mode.
+3. Click Load unpacked and select the extracted folder containing manifest.json.
+4. Disable the old copy of Web Buddy to avoid duplicate companions.
+5. Open or refresh a regular webpage (not chrome:// or Chrome Web Store).
+6. Pin Web Buddy from Chrome's puzzle-piece menu, then open its popup.
+7. Click Water. The popup closes and Spidey drops onto the CURRENT webpage.
+   If the page cannot host Spidey, the popup stays open and explains why.
+
+DROP → BOUNCE / SWAY → COMIC CLOUD → CLIMB AWAY
+
+The character is an articulated transparent vector, not a picture in a box.
+The cloud says DRINK YOUR WATER! and appears after he lands.
+If unanswered, he retreats after about 14 seconds and the reminder snoozes.
+Completing a real reminder counts once. Tests do not change your totals.
+Starting an eye break keeps him there for the 20-second countdown.
+Reduced motion skips travel and limb animations.
+
+Fresh installs show him only for reminders. The popup also offers an
+always-visible mode. Existing preferences stay with an existing extension.
+
+preview.html is an offline interactive demo with simulated local state.
+developer/ contains the editable source and 35 behavioral tests.
+The inner Web_Buddy_Spidey_Store_1.2.1.zip is the clean store-upload package.
+Read PUBLISH.md before any public store submission.

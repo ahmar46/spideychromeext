@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 430" role="img" aria-label="Spidey hanging upside down from a web">
+<defs>
+ <linearGradient id="s-red" x2="1" y2="1"><stop stop-color="#ff5b54"/><stop offset=".52" stop-color="#ec3344"/><stop offset="1" stop-color="#b51e39"/></linearGradient>
+ <linearGradient id="s-blue" x2="1" y2="1"><stop stop-color="#308bd2"/><stop offset=".55" stop-color="#1869b0"/><stop offset="1" stop-color="#134276"/></linearGradient>
+ <pattern id="s-web" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M0 0 36 36M36 0 0 36M0 18Q18 30 36 18M18 0Q30 18 18 36" fill="none" stroke="#6e1e32" stroke-width="1.2" opacity=".7"/></pattern>
+ <clipPath id="s-chest"><path d="M112 198Q160 183 208 198L216 276Q231 302 204 319Q160 337 116 319Q89 302 104 276Z"/></clipPath>
+ <clipPath id="s-mask"><path d="M135 333Q160 321 185 333Q204 350 199 380Q196 410 160 418Q124 410 121 380Q116 350 135 333Z"/></clipPath>
+</defs>
+<g fill="none" stroke="#231e30" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">
+ <g class="spidey-legs">
+  <path d="M139 201C109 193 37 193 18 168C1 146 34 120 68 97L119 51L146 72L91 132L74 148L137 156Z" fill="url(#s-blue)"/>
+  <path d="M181 201C211 193 283 193 302 168C319 146 286 120 252 97L201 51L174 72L229 132L246 148L183 156Z" fill="url(#s-blue)"/>
+  <path d="M63 104L111 62L132 17Q141 2 152 16L156 74L131 99L91 134Z" fill="url(#s-red)"/>
+  <path d="M257 104L209 62L188 17Q179 2 168 16L164 74L189 99L229 134Z" fill="url(#s-red)"/>
+  <path d="M63 104L111 62L132 17Q141 2 152 16L156 74L131 99L91 134Z" fill="url(#s-web)" stroke="none"/>
+  <path d="M257 104L209 62L188 17Q179 2 168 16L164 74L189 99L229 134Z" fill="url(#s-web)" stroke="none"/>
+  <path d="M30 155Q41 164 76 164M290 155Q279 164 244 164" stroke="#70b7e5" opacity=".5"/>
+  <path d="M123 59 143 70M177 70 197 59" stroke="#8b2137" stroke-width="2"/>
+ </g>
+ <g class="spidey-torso">
+  <path d="M112 198Q160 183 208 198L216 276Q231 302 204 319Q160 337 116 319Q89 302 104 276Z" fill="url(#s-red)"/>
+  <g clip-path="url(#s-chest)"><path d="M107 207Q136 216 125 260Q115 297 121 321L100 310L98 207ZM213 207Q184 216 195 260Q205 297 199 321L220 310L222 207Z" fill="url(#s-blue)" stroke-width="2"/><path d="M160 187V330M138 191Q150 254 137 325M182 191Q170 254 183 325M122 207Q160 223 198 207M127 229Q160 243 193 229M127 252Q160 266 193 252M123 277Q160 291 197 277M120 301Q160 316 200 301" stroke="#8e2039" stroke-width="1.5"/></g>
+  <g stroke="#271b2c" stroke-width="3"><path d="m154 272-11-9m11 15-14-2m15 8-16 8m18-3-9 13m18-30 11-9m-11 15 14-2m-15 8 16 8m-18-3 9 13"/><ellipse cx="160" cy="282" rx="4" ry="10" fill="#271b2c"/><circle cx="160" cy="270" r="3" fill="#271b2c"/></g>
+  <path d="M136 318L139 338L181 338L184 318" fill="url(#s-red)"/>
+ </g>
+ <g class="spidey-grip">
+  <path d="M113 300Q86 281 98 244L123 174L143 180L128 250L136 292Q132 308 113 300Z" fill="url(#s-blue)"/>
+  <path d="M103 260L114 198L128 151L148 158L137 213L126 266Z" fill="url(#s-red)"/>
+  <path d="M103 260L114 198L128 151L148 158L137 213L126 266Z" fill="url(#s-web)" stroke="none"/>
+  <path d="M128 155L129 136L145 126Q156 119 162 126L173 133Q179 143 170 149L154 157L147 168Z" fill="url(#s-red)"/>
+  <path d="m143 134 15 5 14-4m-28 10 12 4 14-5m-26 10 12 3" stroke="#8d233a" stroke-width="1.7"/>
+ </g>
+ <g class="spidey-wave">
+  <path d="M209 301Q218 277 247 265Q258 260 268 274L282 303L262 313L247 294L232 318Q214 325 209 301Z" fill="url(#s-blue)"/>
+  <path d="M267 292L283 299L275 332L261 340L252 330Z" fill="url(#s-red)"/>
+  <path d="M267 292L283 299L275 332L261 340L252 330Z" fill="url(#s-web)" stroke="none"/>
+  <path d="M257 331Q249 332 245 343L232 345Q225 351 233 354L247 353L246 370Q248 378 252 371L256 356L260 378Q264 385 266 377L264 354L272 373Q278 378 278 370L271 351L282 360Q289 363 287 356L274 341L275 332" fill="url(#s-red)"/>
+  <path d="m252 342 17 1m-15-8 15 2m-12 14 12-1" stroke="#8b2236" stroke-width="1.5"/>
+ </g>
+ <g class="spidey-head">
+  <path d="M135 333Q160 321 185 333Q204 350 199 380Q196 410 160 418Q124 410 121 380Q116 350 135 333Z" fill="url(#s-red)"/>
+  <g clip-path="url(#s-mask)" stroke="#842139" stroke-width="1.5"><path d="M160 325V420m0-48-40-28m40 28 40-28m-40 28-40 17m40-17 40 17m-40-17-25 42m25-42 25 42M120 345Q160 367 201 345M118 365Q160 391 202 365M120 389Q160 414 200 389"/></g>
+  <g class="spidey-eyes" stroke-width="4" fill="#fffaf3"><path d="M132 350Q147 348 153 367Q140 383 129 382Q125 365 132 350Z"/><path d="M188 350Q173 348 167 367Q180 383 191 382Q195 365 188 350Z"/></g>
+  <path d="M133 342Q144 331 153 332" stroke="#ff9b85" stroke-width="2.5"/>
+ </g>
+</g></svg>
